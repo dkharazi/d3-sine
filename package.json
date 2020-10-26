@@ -6,9 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "big-integer": "^1.6.40",
+    "d3": "^6.2.0",
+    "decimal.js": "^10.2.1",
+    "nerdamer": "^1.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "require": "^2.4.20"
   },
   "scripts": {
     "start": "react-scripts start",

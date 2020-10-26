@@ -1,0 +1,40 @@
+.date {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.title {
+  padding-top: 4rem;
+}
+
+.post a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.post ul,
+.post ol {
+  margin: 1rem 0;
+}
+
+.post ol ul,
+.post ul ol {
+  margin: 0 !important;
+}
+
+.post p {
+  margin: 1rem 0;
+}
+
+.blogHtml img {
+  margin: 2rem auto;
+}
+
+.image {
+  transition: transform .25s ease-out;
+}
+
+.image:hover {
+  transform: scale(1.02);
+}

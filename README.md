@@ -1,4 +1,4 @@
-# d3-wave
+# d3-sine
 
 d3-wave is a simple and customizable React component library to build faster and beautiful sine waves using D3.
 

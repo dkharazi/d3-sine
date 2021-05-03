@@ -15,7 +15,31 @@ npm install d3-sine
 
 # Usage
 
+#### Basic Sine Wave
+
 ```js
-// create a single wave
-<Waveform amplitude={[1]} frequency={[5]} height={200} width={600} />
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+  // create a single wave
+  <Waveform amplitude={[1]} frequency={[5]} height={200} width={600} />
+}
+
+ReactDOM.render(<App />, document.querySelector('#app'));
+```
+
+#### Additive Synthesis
+
+```
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+  // create a single wave
+  // combine two waves together
+  <Waveform amplitude={[0.5, 0.5]} frequency={[5, 10]} height={200} width={600} />
+}
+
+ReactDOM.render(<App />, document.querySelector('#app'));
 ```

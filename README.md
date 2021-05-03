@@ -43,3 +43,6 @@ function App() {
 
 ReactDOM.render(<App />, document.querySelector('#app'));
 ```
+
+# License
+This project is licensed under the terms of the [MIT license](https://github.com/dkharazi/d3-wave/blob/master/LICENSE).

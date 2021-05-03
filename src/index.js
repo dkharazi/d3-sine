@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/index.css';
-import WavesPost from './components/WavesPost';
+import Waveform from './components/Waveform';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <WavesPost />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Wave({ amplitude, frequency, height, width }) {
+  return (
+    <div>
+      <Waveform amplitude={amplitude} frequency={frequency} height={height} width={width} />
+    </div>
+  );
+}
+
+export default Wave;

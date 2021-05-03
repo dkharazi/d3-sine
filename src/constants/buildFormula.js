@@ -1,4 +1,4 @@
-import nerdamer from '../nerdamer/nerdamer';
+import nerdamer from './nerdamer/nerdamer';
 
 const buildPoints = (formula) => {
     function calcNums(dx, points) {

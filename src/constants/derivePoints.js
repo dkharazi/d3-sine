@@ -1,4 +1,4 @@
-import nerdamer from '../nerdamer/nerdamer';
+import nerdamer from './nerdamer/nerdamer';
 
 const derivePoints = (f) => {
     function calcNums(dx, points) {

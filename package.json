@@ -1,5 +1,12 @@
 {
-  "name": "d3-wave",
+  "name": "@dkharazi/d3-sine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkharazi/d3-wave/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
   "version": "0.1.0",
   "private": true,
   "dependencies": {

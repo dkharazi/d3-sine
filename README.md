@@ -31,7 +31,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 #### Additive Synthesis
 
-```
+```js
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 

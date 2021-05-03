@@ -10,7 +10,7 @@ In the future, there will be different types of waves that can be specified and 
 
 ```js
 // with npm
-npm install d3-sine
+npm install d3-wavy
 ```
 
 # Usage
